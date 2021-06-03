@@ -1,0 +1,62 @@
+  h1 {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+	#messageBox {
+		height: 80px;
+		text-align: center;
+	}
+
+  #container {
+    /* フレームのサイズは自由 */
+    width: 80%;
+    height: 400px;
+    border: 1px solid gray;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(154,206,255);
+  }
+
+    #draggable {
+      position: relative;
+      /* このサイズは背景画像のサイズと一致させる */
+      width: 600px;
+      height: 1200px;
+      background-image: url(../images/map.png);
+      border: none;
+      /* 初期設定（自由） */
+      transform: scale(0.8);
+      margin: auto;
+      margin-top: -420px;
+    }
+
+      .marker a{
+        font-size: 12px;
+      }
+      .marker img{
+        width: 32px;
+      }
+
+      #fukuoka {
+        position: absolute;
+        left: 80px;
+        top: 670px;
+      }
+
+      #osaka {
+        position: absolute;
+        left: 250px;
+        top: 596px;
+      }
+
+      #tokyo {
+        position: absolute;
+        left: 385px;
+        top: 521px;
+      }
+
+  #controller{
+    margin: 40px;
+    text-align: center;
+  }
